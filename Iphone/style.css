@@ -1,0 +1,38 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   height: 100vh;
+   width: 100vw;
+}
+
+.caixa-azul {
+   display: flex;
+}
+
+.caixa-verde {
+   display: inline-block;
+   margin-top: 300px;
+}
+
+.caixa-laranja {
+   display: inline-block;
+   margin: 210px 131px 0 136px;
+}
+
+img {
+   position: relative;
+   top: 30%;
+   width: 350px;
+   
+}
+
+h1 {
+   width: 200px;
+}
+
+h2 {
+   width: 500px;
+}
