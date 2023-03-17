@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
    font-family: sans-serif;
+   box-sizing: border-box;
 }
 
 body {
@@ -15,19 +16,11 @@ body {
 
 .box-green {
    display: inline-block;
-   margin-top: 300px;
+   padding: 60px 50px;
 }
 
 .box-orange {
    display: inline-block;
-   margin: 210px 131px 0 136px;
-}
-
-img {
-   position: relative;
-   top: 30%;
-   width: 350px;
-   
 }
 
 .title-iphone {
@@ -36,6 +29,8 @@ img {
 
 .second-title {
    font-size: 40px;
+   margin-top: 10px;
+   margin-bottom: 25px;
 }
 
 .graph {
@@ -46,5 +41,21 @@ img {
    font-size: 20px;
    color: #626262;
    font-weight: 300;
+   margin-top: 25px;
+   margin-bottom: 35px;
 
+}
+
+button {
+   background-color: #0071e3;
+   color: #ffffff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 20px;
+   font-size: 20px;
+}
+
+img {
+   position: relative;
+   width: 350px;
 }
