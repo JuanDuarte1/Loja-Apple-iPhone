@@ -1,6 +1,7 @@
 * {
    margin: 0;
    padding: 0;
+   font-family: sans-serif;
 }
 
 body {
@@ -8,16 +9,16 @@ body {
    width: 100vw;
 }
 
-.caixa-azul {
+.box-blue {
    display: flex;
 }
 
-.caixa-verde {
+.box-green {
    display: inline-block;
    margin-top: 300px;
 }
 
-.caixa-laranja {
+.box-orange {
    display: inline-block;
    margin: 210px 131px 0 136px;
 }
@@ -29,10 +30,21 @@ img {
    
 }
 
-h1 {
-   width: 200px;
+.title-iphone {
+   font-size: 30px;
 }
 
-h2 {
-   width: 500px;
+.second-title {
+   font-size: 40px;
+}
+
+.graph {
+   font-size: 20px;
+}
+
+.price {
+   font-size: 20px;
+   color: #626262;
+   font-weight: 300;
+
 }
