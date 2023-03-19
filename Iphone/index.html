@@ -6,21 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="./scripts.js"></script>
   <title>iPhoe - Apple (Brasil)</title>
+
 </head>
 
 <body>
-  <div >
-    <header class="top-menu">
-      <img class="logo-apple" src="./assets/logo.png" alt="logo-apple">
-      <a>Mac</a>
-      <a>iPad</a>
-      <a>iPhone</a>
-      <a>Watch</a>
-      <a>AirPods</a>
-      <a>Acessórios</a>
-      <a>Suporte</a>
-    </header>
+
+  <div class="box-purple">
+
+    <img class="logo-apple" src="./assets/logo.png" alt="logo-apple">
+    <ul>
+      <li>Mac</li>
+      <li>iPad</li>
+      <li>iPhone</li>
+      <li>Watch</li>
+      <li>AirPods</li>
+      <li>Acessórios</li>
+      <li>Suporte</li>
+    </ul>
   </div>
 
   <div class="box-blue">
@@ -32,17 +36,19 @@
       <button>Comprar</button>
 
       <p class="graph-color">escolha sua cor:</p>
-      
+
       <div class="button-color">
         <button class="blue troca-cor"></button>
-        <button class="yellow troca-cor"></button>
+        <button onclick="trocaCor()" class="yellow troca-cor"></button>
         <button class="white troca-cor"></button>
         <button class="black troca-cor"></button>
         <button class="red troca-cor"></button>
         <button class="purple troca-cor"></button>
       </div>
     </div>
-    <img src="./assets/iphone-branco.png" alt="iphone-branco">
+
+    <div class="circulo"></div>
+    <img class="iphone" src="./assets//iphone-azul.png" alt="iphone-azul">
   </div>
 
 
